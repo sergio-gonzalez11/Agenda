@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-may-2015, 15:01:37
+    Author     : GODOY
+*/
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Open Sans', 'open_sanslight', sans-serif;
+    background-color: rgba(0,152,220,0.05);
+}
+body.inicio {
+    padding-top: 51px;
+    background-color: #242424;
+}
+label.required:before {
+    content: '* ';
+    color: #C75050;
+}
+.centrado{
+    text-align: center;
+}
+/* COLOR FONDO SEGUN ESTADO INCIDENCIA */
+th{
+    text-align: center;
+}
+tr.nueva td {
+    background-color: rgba(255,0,0,0.3);
+}
+
+tr.nueva:hover td {
+    background-color: rgba(255,0,0,0.6);
+}
+tr.abierta td {
+    background-color: rgba(117,158,26,0.3);
+}
+
+tr.abierta:hover td {
+    background-color: rgba(117,158,26,0.6);
+}
+tr.cerrada td, tr.rechazada td {
+    background-color: rgba(102,102,102,0.3);
+}
+
+tr.cerrada:hover td, tr.rechazada:hover td {
+    background-color: rgba(102,102,102,0.6);
+    
+}
+tr.espera td {
+    background-color: rgba(250,207,13,0.3);
+}
+
+tr.espera:hover td {
+    background-color: rgba(250,207,13,0.6);
+    color: rgb(255,255,255);
+}
+
+tr.resuelta td {
+    background-color: rgba(225,112,38,0.3);
+}
+tr.resuelta:hover td {
+    background-color: rgba(225,112,38,0.6);
+}
+
+tr.incidencias td {
+    font-size: 0.8em;
+}
+
+tr.incidencias a{
+    font-size: 1.3em;
+}
+
+div.comentario {
+    background-color: rgba(102,102,102,0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.sinregistros {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a.logo {
+    width: 250px;
+    margin-top: -10px;
+}
+
+a.logo img {
+    width: 80%;
+}
+
+div.error p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+li.prioridades {
+    background-color: rgba(102,102,102,0.05);
+}
+.important {
+    font-weight: bold;
+}
+
+a.entrar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.inicio, h3.inicio {
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+#carousel h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+footer.inicio  {
+    margin-top: 40px;
+    color: #95989B;
+}
+
+footer.inicio  p {
+    font-size: 0.95em;
+    line-height: 1.8em;
+}
+
+li > span.glyphicon {
+    padding-right: 5px;
+}
+.center-text{
+    text-align: center;
+}
