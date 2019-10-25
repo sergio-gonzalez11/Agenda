@@ -5,22 +5,22 @@ Autor Sergio González Ruano
 
 Inicio:
 
-![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/inicio.png)
+![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/imagenes-proyecto/inicio.png)
 
 
 Registrar:
 
-![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/registrar.png)
+![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/imagenes-proyecto/registrar.png)
 
 
 Correcto:
 
-![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/ok.png)
+![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/imagenes-proyecto/ok.png)
 
 
 Final:
 
-![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/final.png)
+![Preview](https://raw.githubusercontent.com/sergio-gonzalez11/AgendaSmarty---Netbeans---Php/master/imagenes-proyecto/final.png)
 
 
 
